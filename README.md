@@ -3,8 +3,8 @@ Pruebas básicas de GIT con un formulario de Login
 
 
 ## Este repositorio utilizará diversos comandos en la consola de GIT
-__git add___
-__git commit -m "mensaje"__
-__git push__
+_git add_
+_git commit -m "mensaje"_
+_git push_
 
 entre otros
