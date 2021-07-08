@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css" />
-    <title>Login - git</title>
+    <link href="./css/login.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
 <body>
+    <h2>Ingresa tus datos de ingreso </h2>
     <main>
-        <h2>Ingresa tu información </h2>
         <form>
             <label for="username">Usuario:</label>
             <input type="text" name="username" id="username" />
             <label for="passwd">Contraseña:</label>
             <input type="password" name="passwd" id="passwd" />
-            
-            <input type="checkbox" name="remember" id="remember" value="remember">
-            <label for="remember">Recordar</label>
-            
+            <input type="checkbox" name="remember" id="remember" value="remember" style="width:20px;"><label for="remember">Recordar</label>
+            <br/><br/>
             <input type="submit" value="Enviar">
+            <br/><br/><br/><br/>
         </form>
     </main>
 </body>
